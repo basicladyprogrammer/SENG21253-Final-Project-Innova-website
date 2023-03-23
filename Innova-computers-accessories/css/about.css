@@ -1,0 +1,107 @@
+/*About*/
+.about {
+    padding-bottom: 70px;
+}
+
+.about__pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+
+.about__item {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.about__item h4 {
+    color: #111111;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'roboto', sans-serif;
+}
+
+.about__item p {
+    margin-bottom: 0;
+    font-weight: 300;
+    color: #999;
+    font-size: small;
+    font-family: 'roboto', sans-serif;
+    text-align: justify;
+}
+
+
+
+
+
+.team {
+    padding-bottom: 70px;
+}
+
+.team__item {
+    margin-bottom: 30px;
+    display: block;
+    margin: auto;
+}
+
+.team__item img {
+    margin-bottom: 25px;
+    height: 280px;
+}
+
+.team__item h4 {
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team__item span {
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: #b2b2b2;
+}
+
+
+
+/*Brands*/
+
+.section-title {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.section-title h2 {
+    color: #111111;
+    font-weight: 700;
+    line-height: 46px;
+    font-family: 'roboto', sans-serif;
+}
+
+.brands {
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+
+.brand_logo {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.brand_logo img {
+    height: 130px;
+}
+
+@media(max-width: 750px){
+    .container .row{
+        flex-direction: column;
+    }
+}

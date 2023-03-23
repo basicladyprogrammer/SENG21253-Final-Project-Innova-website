@@ -1,0 +1,108 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+* {
+   box-sizing: border-box;
+   margin:0;
+   padding: auto;
+}
+
+/* body {
+background-image: url("../images/background.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+} */
+.box {
+   width: 25%;
+   margin: 10px auto;
+   background-color: #f2f2f2;
+   border-radius: 10px;
+   border-style: solid;
+   border-color: blue;
+   padding: 20px;
+}
+
+.form-control {
+   width: 90%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border: none;
+   border-radius: 35px;
+   background-color: #fff;
+   font-size: 16px;
+   color: #160950;
+}
+
+.form-control.input-field{
+   font-family: 'FontAwesome';
+   opacity:0.5;
+}
+
+.inputnames {
+   font-size: 20px;
+   color: #160950;
+   margin-right: 10px;
+}
+
+input[type=submit] {
+   width: 100%;
+   background-color: #160950;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+   font-size: 20px;
+}
+
+input[type=submit]:hover {
+   background-color: #333333;
+}
+
+.box h1{
+   text-align:center;
+}
+* {
+  font-family: "Poppins";
+}
+
+button {
+  background-color: #2742b9;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.b1{
+  float: left;
+}
+
+.b2{
+  float: right;
+}
+
+.login-box {
+   width: 25%;
+   margin: 10px auto;
+   height: 430px;
+   background-color: #f2f2f2;
+   border-radius: 10px;
+   border-style: solid;
+   border-color: blue;
+   padding: 20px;
+}
+
+.error{
+   text-align: center;
+   color:red;
+   font-weight: 2%;
+   font-family:Poppins;
+   font-size: 25px;
+}

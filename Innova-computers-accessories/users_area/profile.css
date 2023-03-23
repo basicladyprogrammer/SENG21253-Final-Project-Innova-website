@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    margin: 0px;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.profile_img{
+    width: 80%;
+    margin:auto;
+    display:block;
+    object-fit: content;
+    border: 3px solid #ccc;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+.container{
+
+}
+.row   {
+    display: flex;
+    text-align: center;
+
+}
+.profile-menu{
+    width: 200px;
+}
+.profile-menu ul{
+    list-style-type: none;
+    background-color: #333;
+    padding: 0px;
+}
+.profile-menu ul li{
+    padding-bottom: 10px;
+}
+.profile-menu ul li h4{
+    background-color: #160950;
+    text-align: center;
+    padding: 15px;
+}
+
+.profile-menu ul li>a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.screen{
+    width: 100%;
+}
+
+@media (max-width:600px) {
+
+    .row{
+        flex-direction: column;
+    }
+    .profile-menu {
+        width: 100%;
+    }
+    .profile-menu ul li h4{
+        padding: 25px;
+    }
+    
+    .profile-menu ul li>a{
+        font-size: 20px;
+    }
+}
